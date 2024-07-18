@@ -4,8 +4,8 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
-    "sc": "nodemon ./src/app3.js -e js,hbs"
+    "start": "node .\\src\\app.js"
+    
   },
   "author": "MK",
   "license": "ISC",
