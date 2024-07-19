@@ -73,7 +73,8 @@ const getInfo = async (event) =>{
     event.preventDefault();
     // alert("hii");
     
-    let cityVal = InputedCity.value ;
+    let cityVal = InputedCity.value.trim() ;
+    console.log(cityVal);
 
     if(cityVal === ""){
         city_name.innerText = "Plz write the name before search";
