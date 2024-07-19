@@ -262,6 +262,11 @@ footer => margin-top : auto */
     width: 50rem;
 }
 
+.carousel-inner img{
+    height: 278px;
+    width: 497px;
+}
+
 /* responsive code */
 @media (max-width: 768px) {
     .main_header_left {
